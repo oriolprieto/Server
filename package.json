@@ -1,0 +1,22 @@
+{
+  "name": "server",
+  "version": "0.9.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "server"
+  },
+  "author": "Oriol Prieto",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "errorhandler": "^1.5.1",
+    "express": "^4.17.1",
+    "rsa_module": "file:../rsa"
+  }
+}
